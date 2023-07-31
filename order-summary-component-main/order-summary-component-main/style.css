@@ -1,0 +1,77 @@
+:root {
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%, 0.1);
+  --Darkblue: hsl(223, 47%, 23%);
+}
+body {
+  background-color: var(--Paleblue);
+
+  height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 380px;
+  height: 682px;
+}
+
+.container img {
+  width: 380px;
+  height: 250px;
+  object-fit: cover;
+}
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+.container p {
+  color: var(--Darkblue);
+}
+
+img.music {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 15px;
+  left: 5px;
+}
+.plan h3 {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+.plan p {
+  margin-top: 0;
+  color: var(--Darkblue);
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--Desaturatedblue);
+  position: relative;
+  border-radius: 20px;
+}
+.hero {
+  background-color: var(--Verypaleblue);
+}
+button {
+  padding: 20px 80px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 0;
+  background-color: var(--Brightblue);
+  color: var(--Paleblue);
+  font-weight: 900;
+  letter-spacing: 1.1px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
